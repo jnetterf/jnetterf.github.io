@@ -1,0 +1,35 @@
+.postcssIsBuggy {}
+@import './common.css';
+
+:global(body) {
+    font-family: var(--font--body);
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: @color--text;
+    padding: 0 10px;
+}
+
+:global(h1),
+:global(h2),
+:global(h3) {
+    line-height:1.2
+}
+
+:global(a) {
+    color: var(--color--link);
+    text-decoration: none;
+}
+
+@media (max-width: 750px) {
+    :global(h1) {
+        font-size: 1.5em;
+    }
+    :global(h2) {
+        font-size: 1.2em;
+    }
+    :global(h3) {
+        font-size: 1.08em;
+    }
+}

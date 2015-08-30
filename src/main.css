@@ -1,0 +1,70 @@
+.postcssIsBuggy {}
+@import './common.css';
+
+.topbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--color--highlight);
+    height: 3px;
+}
+
+.toplink {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.heading {
+    padding-top: 20px;
+}
+
+.links {
+    margin-top: 6px;
+    font-size: 14px;
+    height: 30px;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+@media (min-width: 920px) {
+    .toplink {
+        position: fixed;
+    }
+}
+
+@media (max-width: 460px) {
+    .heading {
+        text-align: center;
+    }
+    .links {
+        height: auto;
+        text-align: center;
+    }
+
+    .links ul {
+        padding-left: 0;
+    }
+
+    .softdev {
+        display: block;
+        font-size: 0.5em;
+    }
+
+    .ndash {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .links ul a {
+        display: block;
+    }
+
+    .intro {
+        text-align: center;
+    }
+}
