@@ -63,7 +63,7 @@ class Main extends React.Component<Main.IProps, {}> {
                     <br />
                     <h2>A home for sheet music</h2>
                     <p>
-                        I'm working on <a href="https://jnetterf.github.io/satie" target="_blank">
+                        I'm working on <a href="https://nettek.ca/satie" target="_blank">
                         <strong>Satie</strong></a>, a
                         high-quality sheet music renderer for the web, and <strong>Ripieno</strong>, a collaborative
                         sheet music editor. If you have a few moments, check out Satie.
